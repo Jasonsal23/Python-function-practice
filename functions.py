@@ -26,7 +26,7 @@ def num_within(target, start, end):
 print(num_within(3,2,4))
 
 # Write a Python function called pascal() that prints out the first n rows of Pascal's triangle.
-triangle = [[1]], [1, 1]
+triangle = [[1], [1, 1]]
 def pascal(n):
     if n  < 1:
         print('NO')
@@ -52,4 +52,4 @@ def pascal(n):
         for row in triangle:
             print(row)
 
-pascal(2)
+pascal(5)
